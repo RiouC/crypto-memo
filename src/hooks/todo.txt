@@ -1,0 +1,86 @@
+Global list of TODO items of type: ALL
+Press ‘N r’ (e.g. ‘0 r’) to search again: (0)[ALL] (1)TODO (2)DOING (3)DONE (4)CANCELED
+  today:      TODO [#A] lyah
+  today:      TODO [2/3] [#A] pyweek
+  today:      TODO [#A] acheter trackball                                                                                      :achat:
+  lts:        TODO [#A] [[https://neuralnetsforhackers.teachable.com/p/neural-networks-for-hackers][Neural networks for hackers ]] (5h !)
+  TODO:       TODO [#A] video hardhat erc20 https://youtube.com/watch?v=9Qpi80dQsGU                                 :alyra:formation::
+  TODO:       TODO [#A] ICO                                                                                         :alyra:formation::
+  today:      TODO [#B] org
+  today:      TODO find TED IA liberté video
+  today:      TODO ideas  6
+  today:      TODO pathchk verify exfat compatible names ?
+  today:      TODO ask what lisp to learn for holochain ?
+  today:      TODO xorg discord server
+  today:      TODO Heterogeneous Linguisticae de Seno Salt
+  today:      TODO mimic text-to-speech
+  today:      TODO try qtile
+  today:      TODO make an archive of good bitbucket repos
+  today:      TODO heptapod
+  today:      TODO osdn
+  today:      TODO phabricator
+  today:      TODO [1/2] hydra expand region
+  today:      TODO hydra for repeat command
+  today:      TODO a package to show only packages (in list-packages) that have been updated at least 1 year ago
+  today:      TODO [0/2] literate programming
+  today:      TODO améliorer les pages wikipedia
+  today:      TODO script python pour dl iso
+  today:      TODO disroot owncloud -> organice Android                                                                        :quick:
+  today:      TODO daf fish (2 tags)                                                                                          :config:
+  today:      TODO acheter SSD (+ trépied ?)                                                                                   :achat:
+  today:      TODO kitty config                                                                                               :config:
+  today:      TODO Trigun                                                                                                      :anime:
+  today:      TODO Tokyo ravens                                                                                                :anime:
+  today:      TODO Gungrave                                                                                                    :anime:
+  today:      TODO Seikimatsu Occult Gakuin                                                                                    :anime:
+  today:      TODO Toji no Miko                                                                                                :anime:
+  today:      TODO Yondemasu yo Azazel san                                                                                     :anime:
+  today:      TODO Saiki                                                                                                       :anime:
+  today:      TODO Umibe no Etranger                                                                                           :anime:
+  today:      TODO Shuumatsu Nani Shitemasuka? Isogashii Desuka? Sukutte Moratte Ii Desuka?                                    :anime:
+  today:      TODO Kimi ga Nozomu Eien                                                                                         :anime:
+  today:      TODO Kuzu no Honkai                                                                                              :anime:
+  today:      TODO Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai                                                     :anime:
+  today:      TODO Ef                                                                                                          :anime:
+  today:      TODO Ano Hi Mita Hana no Namae o Bokutachi wa Mada Shiranai                                                      :anime:
+  today:      TODO yakunara mug cup                                                                                            :anime:
+  today:      TODO omoi omoware furi furare film                                                                               :anime:
+  today:      TODO horimiya                                                                                                    :anime:
+  today:      TODO Tenchi souzou design bou                                                                               :anime:drop:
+  today:      TODO Tokyo ravens                                                                                                :anime:
+  today:      TODO Tokyo Majin Gakuen Kenpucho : Tou Dai Ni Maku VOSTFR en Streaming | AnimeKO                                 :anime:
+  today:      TODO Tenchi Muyo! Ryo Ohki 5 OAV 06 Vostfr | AnimeKO                                                             :anime:
+  today:      TODO Ryuu no Haisha Special 01 Vostfr | AnimeKO                                                                  :anime:
+  today:      TODO Hetalia World☆Stars Episode 01 Vostfr | AnimeKO                                                             :anime:
+  today:      TODO Jouran : The Princess of Snow and Blood Episode 02 Vostfr | AnimeKO                                         :anime:
+  today:      TODO Saiki Kusuo no Ψ Nan (TV) Episode 16 Vostfr | AnimeKO                                                       :anime:
+  today:      TODO Princess Principal : Crown Handler Film 01 Vostfr | AnimeKO                                                 :anime:
+  today:      TODO Xah dired config                                                                                           :config:
+  today:      TODO ncmpcpp config                                                                                             :config:
+  today:      TODO stumpwm audio notif (mpc, playerctl)                                                                       :config:
+  today:      TODO chemacs                                                                                                    :config:
+  today:      TODO [[https://www.revolut.com/fr-FR][Revolut]] (ouvrir compte)
+  today:      TODO emacs batch eval export agenda view + startpage                                                            :config:
+  lts:        TODO SSD 2To                                                                                                     :achat:
+  lts:        TODO Trépied                                                                                                     :achat:
+  lts:        TODO shadow
+  lts:        TODO RFCtexi
+  lts:        TODO RFC-search
+  lts:        TODO mpc stumpwm
+  lts:        TODO dunst config
+  vita:       TODO Cadeau anniversaire guilaine 2021
+  vita:       TODO Demander bocal pour pistache                                                                         :quick:maison:
+  vita:       TODO wassim
+  vita:       TODO Do Brazil                                                                                                   :achat:
+  TODO:       TODO React                                                                                            :alyra:formation::
+  TODO:       TODO SASS                                                                                             :alyra:formation::
+  TODO:       TODO [[https://learngitbranching.js.org/?locale=fr_FR][git branching]]                                                                                    :alyra:formation::
+  TODO:       TODO Veille IPFS                                                                                      :alyra:formation::
+  TODO:       TODO Makefile for setup alyra repo                                                                    :alyra:formation::
+  TODO:       TODO [#B] Compilateur scheme -> EVM ([[https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours][wys48]])                                                                :alyra:proj::
+  TODO:       TODO Nomic smart-contracts                                                                                 :alyra:proj::
+  TODO:       TODO humanize number                                                                                   :alyra:sideproj::
+  TODO:       TODO merkle tree                                                                                       :alyra:sideproj::
+  TODO:       TODO merkle DAG                                                                                        :alyra:sideproj::
+  TODO:       TODO crackme13                                                                                         :alyra:sideproj::
+  TODO:       TODO [#C] article el famoso react fetch data                                                          :alyra:formation::

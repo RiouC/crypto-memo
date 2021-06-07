@@ -1,12 +1,16 @@
-import { useState } from "react"
-import { useCurrencies } from "../hooks/useCurrencies"
-import Currency from "./Currency"
+import { useState, useCallback } from 'react';
+import { useCurrencies } from '../hooks/useCurrencies';
+import Currency from './Currency';
 
 const List = () => {
-  const { error, loading, currencies } = useCurrencies()
-  const [active, setActive] = useState(null)
-  const displayedCurrencies = currencies.slice(0, 500)
+  const { error, loading, currencies } = useCurrencies();
+  const [filter, setFilter] = useState('');
 
+  const [active, setActive] = useState(null);
+  const displayedCurrencies = currencies.slice(0, 500);
+
+  const hideDetails = useCallback(() => setActive(null), []);
+  const showDetails = useCallback((id) => setActive(id), []);
   return (
     <div className="container p-4 py-5 px-lg-5">
       {loading ? (
@@ -23,14 +27,16 @@ const List = () => {
                 currency={el}
                 isActive={el.id === active}
                 setActive={setActive}
+                hideDetails={hideDetails}
+                showDetails={showDetails}
               />
-            )
+            );
           })}
         </>
       )}
       {error && <p>{error}</p>}
     </div>
-  )
-}
+  );
+};
 
-export default List
+export default List;
