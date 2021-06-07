@@ -1,16 +1,25 @@
-import { useState, useCallback } from "react"
-import { useCurrencies } from "../hooks/useCurrencies"
-import Currency from "./Currency"
+import { matchSorter } from 'match-sorter';
+import { useState, useCallback, useMemo } from 'react';
+import { useCurrencies } from '../hooks/useCurrencies';
+import Currency from './Currency';
 
 const List = () => {
-  const { error, loading, currencies } = useCurrencies()
-  const [filter, setFilter] = useState("")
+  const { error, loading, currencies } = useCurrencies();
+  const [filter, setFilter] = useState('');
 
-  const [active, setActive] = useState(null)
-  const displayedCurrencies = currencies.slice(0, 500)
+  const [active, setActive] = useState(null);
+  const t0 = performance.now();
+  // const filteredCurrencies = filter ? matchSorter(currencies, filter, { keys: ['name', 'symbol'] }) : currencies;
+  // const displayedCurrencies = filteredCurrencies.slice(0, 500);
+  const displayedCurrencies = useMemo(() => {
+    const filteredCurrencies = filter ? matchSorter(currencies, filter, { keys: ['name', 'symbol'] }) : currencies;
+    return filteredCurrencies.slice(0, 500);
+  }, [filter, currencies]);
+  const t1 = performance.now();
+  console.log(t1 - t0);
 
-  const hideDetails = useCallback(() => setActive(null), [])
-  const showDetails = useCallback((id) => setActive(id), [])
+  const hideDetails = useCallback(() => setActive(null), []);
+  const showDetails = useCallback((id) => setActive(id), []);
 
   return (
     <div className="container p-4 py-5 px-lg-5">
@@ -22,12 +31,7 @@ const List = () => {
             <label htmlFor="filter" className="form-label">
               Filter currencies
             </label>
-            <input
-              id="filter"
-              value={filter}
-              onChange={(e) => setFilter(e.target.value)}
-              className="form-control"
-            />
+            <input id="filter" value={filter} onChange={(e) => setFilter(e.target.value)} className="form-control" />
           </div>
           <p>
             {displayedCurrencies.length} first results / {currencies.length}
@@ -42,13 +46,13 @@ const List = () => {
                 hideDetails={hideDetails}
                 setActive={setActive}
               />
-            )
+            );
           })}
         </>
       )}
       {error && <p>{error}</p>}
     </div>
-  )
-}
+  );
+};
 
-export default List
+export default List;
